@@ -6,11 +6,13 @@ const COLORS = [
   "green",
   "orange",
   "purple",
+  "pink",
   "red",
   "blue",
   "green",
   "orange",
-  "purple"
+  "purple",
+  "pink"
 ];
 
 // here is a helper function to shuffle an array
@@ -48,6 +50,7 @@ function createDivsForColors(colorArray) {
 
     // give it a class attribute for the value we are looping over
     newDiv.classList.add(color);
+    newDiv.style.backgroundColor = "#97C5D8";
 
     // call a function handleCardClick when a div is clicked on
     newDiv.addEventListener("click", handleCardClick);
@@ -81,7 +84,7 @@ function matchCheck(){
       matchedCards.push();
     } else {
       for(let card of clickCounter){
-        card.style.backgroundColor = 'white';
+        card.style.backgroundColor = '#97C5D8';
         card.classList.remove('flipped');
       }
     }
