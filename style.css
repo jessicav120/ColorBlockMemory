@@ -1,0 +1,12 @@
+#game div {
+  border: 1px solid black;
+  width: 100px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+newDiv {
+  outline-style: dashed;
+  outline-width: 10px;
+}
