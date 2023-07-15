@@ -31,3 +31,10 @@ h1 {
 body {
   background-color: #84A9CD;
 }
+
+p {
+  font-family: 'Fira Sans Condensed', sans-serif ;
+  text-align: center;
+  font-size: 30px;
+  color: #FAE39C;
+}
